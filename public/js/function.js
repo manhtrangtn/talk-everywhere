@@ -2,7 +2,7 @@ $(function () {
     $("#chat-box").hide();
     $("#login-box").show();
     $(".stickers").hide();
-    var socket = io.connect('http://localhost:3141'); 
+    var socket = io.connect('https://talk-everywhere.herokuapp.com/');
     var username;
     socket.on('users', function (data) {
         $("#onlineUser").html("");

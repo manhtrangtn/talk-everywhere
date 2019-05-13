@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 var users = [];
 var socketUsername;
-var server = http.Server(app).listen(3141);
+var server = http.Server(app).listen(process.env.PORT || 3141);
 var io = require('socket.io')(server);
 io.on("connect", function (socket) {
     console.log(socket.id + ' connected!');
