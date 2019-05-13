@@ -1,0 +1,222 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: azure;
+}
+body{
+    background-image: url('background.png');
+    background-size: cover;
+}
+.container{
+    width: 50%;
+    margin:  auto;
+}
+#login-box{
+    width: 100%;
+    min-height: 400px;
+    display: block;
+    margin: 20px;
+    background-color: #1e272e95;
+    border-radius: 10px;
+    text-align: center;
+}
+#login-box h1,h5{
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+#login-box p{
+    font-size: 8pt;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 100;
+    margin-top: 70px;
+    padding-bottom: 5px;
+}
+#username{
+    width: 70%;
+    line-height: 60px;
+    font-size: 28pt;
+    margin: 20px 0 20px 0;
+    height: 60px;
+    background: none;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+#start{
+    width: 30%;
+    height: 70px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 70px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 0 0 0 ;
+    font-size: 24pt;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+#start:hover{
+    background-color: #485460;
+}
+#chat-box{
+    min-height: 500px;
+    width: 100%;
+    display: block;
+    margin: 20px;
+    
+    border-radius: 10px;
+}
+#chat-box .left{
+   background-color: #1e272e95;
+   border-radius: 10px;
+    float: left; 
+    width: 25%;
+    text-align: center;
+    height: 535px;
+    overflow: auto;
+}
+#onlineUser {
+    display: block;
+    text-align: center;
+
+}
+.left .title, .currentUser{
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.user{
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 90%;
+    font-family: 'Work Sans',
+    sans-serif;
+    font-weight: 100;
+    background-color: #e67e2298;
+    margin-top: 15px;
+    line-height: 30px;
+    border-radius: 30px;
+}
+#chat-box .right{
+    background-color: #1e272e95;
+    float: right;
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;  
+}
+#cUser{
+    font-weight: 400;
+}
+#chat{
+    height: 400px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+#chat .msg{
+    display: block;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    max-width: 90%;
+    padding: 5px; 
+}
+.msg .msgUser{
+    color: #485460;
+    font-family: 'Work Sans',
+    sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
+}
+.msg .msgContent {
+    color: #485460;
+    display: block;
+    font-family: 'Work Sans',
+        sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 5px;
+}
+.message{
+    display: flex;
+}
+.message #message{
+    width: 80%;
+    height: 40px;
+    background: none;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;line-height: 40px;
+    outline: none;
+}
+.message #send{
+    width: 10%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: teal;
+    font-size: 24pt;
+    cursor: pointer;
+}
+#logout{
+    width: 90px;
+    height: 30px;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 150px; 
+    cursor: pointer;
+}
+#logout:hover{
+    background-color: #485460;
+}
+.stk{
+    width: 10%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #0984e3;
+    font-size: 24pt;
+    cursor: pointer;
+}
+.stickers{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+    margin-top: 10px;
+    overflow: auto;
+}
+.sticker{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.sent-img{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 90px;
+}
